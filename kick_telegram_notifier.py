@@ -11,7 +11,7 @@ from datetime import datetime
 import threading
 
 # ============= CONFIGURATION =============
-KICK_USERNAME = os.getenv("KICK_USERNAME", "jamie")
+KICK_USERNAME = os.getenv("KICK_USERNAME", "trainwreckstv")
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")  # You'll get this from BotFather
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "")  # Your personal chat ID
 CHECK_INTERVAL = int(os.getenv("CHECK_INTERVAL", "60"))
