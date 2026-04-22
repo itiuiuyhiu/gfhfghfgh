@@ -11,11 +11,11 @@ from datetime import datetime
 import threading
 
 # ============= CONFIGURATION =============
-KICK_USERNAME = os.getenv("KICK_USERNAME", "trainwreckstv")
+KICK_USERNAME = os.getenv("KICK_USERNAME", "jamie")
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")  # You'll get this from BotFather
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "")  # Your personal chat ID
 CHECK_INTERVAL = int(os.getenv("CHECK_INTERVAL", "30"))
-SPAM_INTERVAL = 3  # Spam every 3 seconds until you respond
+SPAM_INTERVAL = 1  # Spam every 1 second until you respond
 # =========================================
 
 
