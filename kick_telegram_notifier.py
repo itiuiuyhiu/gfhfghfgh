@@ -17,7 +17,7 @@ import json
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "")
 CHECK_INTERVAL = int(os.getenv("CHECK_INTERVAL", "60"))
-SPAM_INTERVAL = 10  # Spam every 10 seconds until you respond
+SPAM_INTERVAL = 1  # Spam every 1 seconds until you respond
 STREAMERS_FILE = "/tmp/streamers.json"  # Persistent storage for streamer list
 # =========================================
 
